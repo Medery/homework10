@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,39 +7,47 @@
     <title>crm</title>
 </head>
 <body>
-    <main>
+    <div>
         <div class="add-product">
             <h1>Добавить товар</h1>
         </div>
         
-        <div class="buy">
-            <div class="buy-name">
+        <form class="buy">
+            <fieldset class="buy-name">
                 <div class="buy-name__text text">
-                    Наименование
+                    <label>
+                        Наименование
+                    </label> 
                 </div>
                 <div class="buy-name__input input">
                     <input type="text">
                 </div>
-            </div>
-            <div class="buy-category">
+            </fieldset>
+            <fieldset class="buy-category">
                 <div class="buy-category__text text">
-                    Категория
+                    <label>
+                        Категория
+                    </label> 
                 </div>
                 <div class="buy-category__input input">
                     <input type="text">
                 </div>
-            </div>
-            <div class="buy-units">
+            </fieldset>
+            <fieldset class="buy-units">
                 <div class="buy-units__text text">
-                    Единицы измерения
+                    <label>
+                        Единицы измерения
+                    </label> 
                 </div>
                 <div class="buy-units__input input">
                     <input type="text">
                 </div>
-            </div>
-            <div class="buy-discount">
+            </fieldset>
+            <fieldset class="buy-discount">
                 <div class="buy-discount__text text">
-                    Дисконт
+                    <label>
+
+                    </label> Дисконт
                 </div>
                 <div class="buy-discount-flex">
                     <div class="buy-discount-flex__checkbox">
@@ -49,37 +57,43 @@
                         <input type="text" id="discount-input" disabled>
                     </div>
                 </div>
-            </div>
-            <div class="buy-description">
+            </fieldset>
+            <fieldset class="buy-description">
                 <div class="buy-description__text text">
-                    Описание
+                    <label>
+
+                    </label> Описание
                 </div>
                 <div class="buy-description__input input">
                     <textarea type="text" class="description-input">
                     </textarea>
                 </div>
-            </div>
-            <div class="buy-quantity">
+            </fieldset>
+            <fieldset class="buy-quantity">
                 <div class="buy-quantity__text text">
-                    Количество
+                    <label>
+
+                    </label> Количество
                 </div>
                 <div class="buy-quantity__input input">
                     <input type="number">
                 </div>
-            </div>
-            <div class="buy-coast">
+            </fieldset>
+            <fieldset class="buy-coast">
                 <div class="buy-coast__text text">
-                    Цена
+                    <label>
+
+                    </label> Цена
                 </div>
                 <div class="buy-coast__input input">
                     <input type="number">
                 </div>
-            </div>
+            </fieldset>
             <div class="buy-send">
                 <button class="buy-send__button">Добавить товар</button>
             </div>
-        </div>
-    </main>
+        </form>
+    </div>
 
     <script src="script.js"></script>
 </body>
